@@ -23,7 +23,7 @@ question_turn = "player1";
 answer_turn = "player2";
 function check()
 {
-get_answer = document.getElementById("output").value;
+get_answer = document.getElementById("input_check_box").value;
 if(get_answer == actual_answer)
 {
 if(answer_turn == "player_1")
@@ -70,20 +70,6 @@ document.getElementById("player_answer").innerHTML = "answer Turn -" +player1_na
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
